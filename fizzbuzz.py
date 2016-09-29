@@ -50,11 +50,13 @@ B = int(input("For multiples of what number shall we print 'Buzz'?"))
 count = 1
 while count<=T:
     print(count)
-    if count == count%F:
-            print("Fizz")
-    if count == count%B:
+    count = count+1
+    if count%F == 0 and count%B == 0:
+            print("FizzBuzz")
+    elif count%F == 0:
+            print("FIzz")
+    elif count%B == 0:
             print("Buzz")
-    count=count+1;
     
     
             
