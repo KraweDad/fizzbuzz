@@ -47,7 +47,7 @@ Buzz
 T = int(input("How many numbers shall we print?"))
 F = int(input(" For multiples of what number shall we print 'Fizz'?"))
 B = int(input(" For multiples of what number shall we print 'Buzz'?"))
-count = 1
+count = 0
 while count<=T:
     print(count)
     count = count+1
