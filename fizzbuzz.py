@@ -44,9 +44,9 @@ Fizz
 Fizz
 Buzz
 """
-T = int(input("How many numbers shall we print?"))
-F = int(input(" For multiples of what number shall we print 'Fizz'?"))
-B = int(input(" For multiples of what number shall we print 'Buzz'?"))
+T = int(input("How many numbers shall we print? "))
+F = int(input(" For multiples of what number shall we print 'Fizz'? "))
+B = int(input(" For multiples of what number shall we print 'Buzz'? "))
 for count in range(1, T+1):
     if count%F == 0 and count%B == 0:
             print("FizzBuzz")
